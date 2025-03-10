@@ -1,0 +1,72 @@
+.auth{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.auth-container{
+    justify-self: center;
+    align-self: center;
+    width: max(25vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    gap: 10px;
+    animation: popupAnimation 1s;
+}
+
+.auth-cancel{
+    text-align: end;
+    font-size: 20px;
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0px;
+}
+
+.input-group-title label{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-group input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input-group input:focus{
+    outline: 1px solid var(--border-color);
+}
+
+.input-group-title{
+    display: flex;
+    gap: 5px;
+}
+
+.forgot-password{
+    text-align: end;
+    color: var(--button-color);
+}
+.forgot-password a{
+    color: var(--button-color);
+}
+
+.google-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

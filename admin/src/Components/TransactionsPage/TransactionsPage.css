@@ -1,0 +1,29 @@
+/* General styles */
+.transaction-container {
+    padding: 24px;
+    background-color: var(--bg-color);
+    margin-top: 30px;
+    
+}
+
+.transaction-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+/* Charts Section */
+.transaction-chart-container {
+    box-shadow: var(--box-shadow);
+    margin: 50px 0px;
+    padding: 40px 30px 40px 0px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .charts-container {
+        grid-template-columns: 1fr;
+    }
+}
